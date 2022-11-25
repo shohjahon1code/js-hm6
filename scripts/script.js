@@ -47,7 +47,7 @@ function addTop(name = "") {
 // calculateAll
 function calculate() {
   switch (lastoperation) {
-    case "x":
+    case "*":
       result = parseFloat(result) * parseFloat(displayNumber2);
       break;
     case "+":
@@ -73,7 +73,6 @@ elEqual.addEventListener("click", () => {
 });
 
 //clear:
-elClear.addEventListener("click", clearAll);
 function clearAll() {
   displayNumber1 = "";
   displayNumber2 = "";
@@ -81,3 +80,5 @@ function clearAll() {
   elDisplay2.innerHTML = displayNumber2;
   result = "";
 }
+
+elClear.addEventListener("click", clearAll);
