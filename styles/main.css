@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  margin-top: 150px;
+  background-color: rgba(105, 98, 98, 0.9);
+}
+
+.calculator {
+  max-width: 580px;
+  min-height: 550px;
+  background: #6b2929;
+  padding: 30px;
+  margin: 50px auto;
+  border: 10px solid rgb(179, 27, 27);
+  border-radius: 40px;
+}
+
+.display {
+  background-color: rgb(182, 182, 182);
+  height: 100px;
+  width: 100%;
+  text-align: right;
+  padding: 20px;
+  font-size: 30px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.display-1 {
+  opacity: 0.4;
+  font-size: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.temp-result {
+  position: absolute;
+  bottom: 0;
+  left: 10;
+  font-size: 20px;
+  opacity: 0.3;
+}
+
+.delete {
+  width: 60px;
+  height: 63px;
+  font-size: 30px;
+  font-family: Xenara;
+  border-radius: 10px;
+  background: crimson;
+  color: white;
+  outline: none;
+}
+
+.btn {
+  margin-top: 40px;
+  margin-left: 1px;
+  width: 130px;
+  height: 60px;
+  font-size: 30px;
+  font-family: Trebuchet MS;
+  border-radius: 10px;
+  background: #16278a;
+  color: white;
+}
+
+.divide {
+  margin-left: 20px;
+  width: 50px;
+  height: 60px;
+  font-size: 30px;
+  font-family: Trebuchet MS;
+  border-radius: 10px;
+  background: #5f04b4;
+  color: white;
+}
+
+.equal {
+  width: 130px;
+  height: 60px;
+  font-size: 30px;
+  font-family: Xenara;
+  border-radius: 10px;
+  background: #fe0140;
+  color: white;
+}
+
+.way {
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+}
